@@ -1,0 +1,69 @@
+body{
+	font-family: 'Permanent Marker', cursive;
+	background-image: url(https://wallpapercave.com/wp/A5WTr9d.jpg);
+	
+
+}
+
+.jumbotron{
+	background-image: url();
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	margin-bottom: 1%;
+	padding-top: .5%;
+	padding-bottom: 2%;
+	background-image: url(https://wallpapercave.com/wp/A5WTr9d.jpg);
+}
+
+
+@media screen and (max-width: 767px){
+	img{
+		width: 50% !important;
+	}
+	.left{
+		padding-top: 20px;
+	}
+
+}
+
+h2{
+	font-family: 'Permanent Marker', cursive;
+	color:darkred;
+}
+
+img{
+	border-radius: 6px;
+	width: 100%;
+}
+
+#currentWord, #guessesLeft, #lettersGuessed, #wins, #losses{
+    font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
+	color: darkred;
+}
+
+.left{
+	background-color: white;
+	border-radius: 6px;
+	color: darkred
+}
+
+.right{
+	padding-right: 0;
+}
+
+.row{
+	border-radius: 6px;
+}
+
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+
+}
+
